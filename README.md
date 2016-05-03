@@ -19,6 +19,8 @@
 - Error `System.InvalidOperationException : No connection string named 'test' could be found in the application config file. `
 - โดย Error นี้จะเกิดเฉพาะบน Mac เท่านั้น เนื่องจากนำโค้ดเดียวกันไปรันบน Windows จะทำงานปกติ
 
+### โค้ด
+
 ```csharp
 [Test]
 public void ShouldCreateSchema ()
@@ -31,6 +33,8 @@ public void ShouldCreateSchema ()
     }
 }
 ```
+
+### ไฟล์ Config
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -55,3 +59,8 @@ public void ShouldCreateSchema ()
     </connectionStrings>
 </configuration>
 ```
+
+## สาเหตุ
+
+- เกิดจาก Unit Test Runner บน Xamarin Studio ไม่อ่านไฟล์ Config
+- ถ้ารันโปรแกรมแบบ Console Application จะอ่าน Config ได้ปกติ
