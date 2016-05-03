@@ -1,17 +1,16 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleEFTest/SimpleContext.cs">
+﻿<Properties StartupItem="ConsoleEFTest/ConsoleEFTest.csproj">
+  <MonoDevelop.Ide.ItemProperties.ConsoleEFTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleEFTest/App.config">
     <Files>
-      <File FileName="ConsoleEFTest/App.config" Line="7" Column="166" />
-      <File FileName="ConsoleEFTest/SimpleContext.cs" Line="8" Column="30" />
-      <File FileName="ConsoleEFTest/Person.cs" Line="4" Column="2" />
-      <File FileName="ConsoleEFTest/Program.cs" Line="16" Column="1" />
+      <File FileName="ConsoleEFTest/packages.config" Line="1" Column="1" />
+      <File FileName="ConsoleEFTest/App.config" Line="8" Column="106" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="ConsoleEFTest/Program.cs" line="22" offsetX="440" offsetY="378" expression="ex.Message" liveUpdate="False" />
+    <Watch file="ConsoleEFTest/Program.cs" line="22" offsetX="440" offsetY="378" expression="ex.Message" liveUpdate="True" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>
