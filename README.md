@@ -8,7 +8,7 @@
 <configuration>
   <configSections> </configSections>
   <connectionStrings>
-    <add name="SimpleContext" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.0.105\SQLEXPRESS;Database=EFMigration;User Id=sa;Password=abcABC123;" />
+    <add name="SimpleContext" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.0.105\SQLEXPRESS;Database=EFMigration;User Id=sa;Password=1234;" />
   </connectionStrings>
 </configuration>
 ```
